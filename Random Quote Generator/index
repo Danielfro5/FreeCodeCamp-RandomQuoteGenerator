@@ -1,0 +1,17 @@
+<html>
+<head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+<h1>Quote Generation</h1>
+<div id="quotesHere" class="bg-info text-white">
+</div>
+<button id="button" class=btn onclick="newQuoteFun()">Generate Quote</button>
+<p style="padding:10px">
+<button id="button2" class="btn twitter-share-button text-info" onclick="twitterScript()"><i class="fa fa-twitter"></i></button>
+<p>Created By Daniel Frost</p>
+<script src="main.js"></script>
+</body>
+</html>

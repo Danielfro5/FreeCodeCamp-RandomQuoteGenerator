@@ -1,0 +1,11 @@
+body{
+  font-family: monospace;
+  text-align: center;
+}
+div{
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+
+}
